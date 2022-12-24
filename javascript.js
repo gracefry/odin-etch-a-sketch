@@ -61,7 +61,7 @@ function addHover() {
     const cells = document.querySelectorAll(".cell") 
 
     cells.forEach(cell => cell.addEventListener("mouseover", (e) => {
-    e.target.style.backgroundColor = "purple";
+    e.target.style.backgroundColor = "black";
     }));
 }
 
